@@ -3,7 +3,7 @@ name: Update-Web-Content
 on: 
   push:
     branches:
-      - master
+      - test
   # pull_request:
   #   branches: [ release ]
 
