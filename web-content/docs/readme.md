@@ -23,4 +23,4 @@ Change the values for the Task definition in the terraform script as well
 
 Update the service and change the task count from 0 to 1
 
-Check the node status
+Check the node status THE END
