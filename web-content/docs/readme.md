@@ -12,6 +12,8 @@ Clone the tooling repo (https://github.com/cheqd/cheqd-tooling) and execute the 
 
 IMPORTANT: Make sure the cluster task is set to 0, no containter should be running
 
+GOOGLE: https://google.com
+
 After recreating the environment delete the EFS volume that was created by terraform and restore the EFS from backup
 
 Create a new revision of the Task definition and replae the File system ID and Access point ID to point to the restored backup EFS
