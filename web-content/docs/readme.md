@@ -8,8 +8,9 @@ Update the service in the ECS cluster by setting the Number of tasks field to 1 
 Check the deployment progress and the node status after the deployment is done
 
 Restore Testnet from scratch
+<!-- markdown-link-check-disable -->
 Clone the tooling repo (https://github.com/cheqd/cheqd-tooling) and execute the terraform to create the infrastructure
-
+<!-- markdown-link-check-enable -->
 IMPORTANT: Make sure the cluster task is set to 0, no containter should be running
 
 GOOGLE: https://google.com
