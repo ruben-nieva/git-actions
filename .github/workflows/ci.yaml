@@ -1,4 +1,4 @@
-name: Cheqd Organization CI
+name: Link Markdown
 
 on:
   push:
@@ -10,7 +10,7 @@ jobs:
   check_links:
     runs-on: ubuntu-latest
     steps:
-      - name: Actions checkout
+      - name: Actions Checkout
         uses: actions/checkout@v2
       - name: Check Links
         uses: gaurav-nelson/github-action-markdown-link-check@v1
