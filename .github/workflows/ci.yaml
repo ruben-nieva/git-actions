@@ -8,6 +8,7 @@ on:
 
 jobs:
   check_links:
+    name: Links
     runs-on: ubuntu-latest
     steps:
       - name: Actions Checkout
@@ -15,3 +16,13 @@ jobs:
       - name: Check Links
         uses: gaurav-nelson/github-action-markdown-link-check@v1
 
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: golangci-lint
+        uses: golangci/golangci-lint-action@v2
+        with:
+          version: v1.40
+          args: --timeout 5m0s
