@@ -44,7 +44,7 @@ Your blockchain in development can be configured with `config.yml`. To learn mor
 
 ## Running local network using docker
 
-Use this [instruction]
+Use this [instruction](ci/local_net/README.md).
 
 ## Learn more
 
