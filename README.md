@@ -23,7 +23,7 @@ which cheqd-noded
 
 ## Building node in docker
 
-Use this [instruction](ci/docker/README.md).
+Use this [instruction]
 
 ## Running local network using starport
 
@@ -44,7 +44,7 @@ Your blockchain in development can be configured with `config.yml`. To learn mor
 
 ## Running local network using docker
 
-Use this [instruction](ci/local_net/README.md).
+Use this [instruction]
 
 ## Learn more
 
