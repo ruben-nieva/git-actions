@@ -47,7 +47,7 @@ Your blockchain in development can be configured with `config.yml`. To learn mor
 Use this [instruction](ci/local_net/README.md).
 
 
-## Learn mores
+## Learn more
 
 - [Starport](https://github.com/tendermint/starport)
 - [Cosmos SDK documentation](https://docs.cosmos.network)
